@@ -1,15 +1,15 @@
 <!doctype html><html lang=en>
 <head>
 <title>
-Over ons ::
+Hugo 101 ::
 Just our world
 </title>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
-<meta name=description content="Wij zijn een gezinnetje van 4; Ziggy en ik (Kelly), Ayla; onze dochter en Lou; onze Engelse Cocker Spaniel.">
+<meta name=description content>
 <meta name=keywords content="homepage,blog,gezin,family">
 <meta name=robots content="noodp">
-<link rel=canonical href=justourworld.eu/about/>
+<link rel=canonical href=justourworld.eu/series/hugo-101/>
 <link rel=stylesheet href=justourworld.eu/assets/style.css>
 <link rel=stylesheet href=justourworld.eu/style.css>
 <link rel=apple-touch-icon-precomposed sizes=144x144 href=justourworld.eu/img/apple-touch-icon-144-precomposed.png>
@@ -22,12 +22,13 @@ Just our world
 <link href=justourworld.eu/assets/fonts/Inter-BoldItalic.woff2 rel=preload type=font/woff2 as=font crossorigin>
 <meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="justourworld.eu">
-<meta name=twitter:title content="Over ons">
-<meta name=twitter:description content="Wij zijn een gezinnetje van 4; Ziggy en ik (Kelly), Ayla; onze dochter en Lou; onze Engelse Cocker Spaniel.">
-<meta property="og:title" content="Over ons">
-<meta property="og:description" content="Wij zijn een gezinnetje van 4; Ziggy en ik (Kelly), Ayla; onze dochter en Lou; onze Engelse Cocker Spaniel.">
-<meta property="og:type" content="article">
-<meta property="og:url" content="justourworld.eu/about/"><meta property="og:image" content="justourworld.eu"><meta property="article:section" content>
+<meta name=twitter:title content="Hugo 101">
+<meta name=twitter:description content="Mijn gezinnetje en de wereld">
+<meta property="og:title" content="Hugo 101">
+<meta property="og:description" content="Mijn gezinnetje en de wereld">
+<meta property="og:type" content="website">
+<meta property="og:url" content="justourworld.eu/series/hugo-101/"><meta property="og:image" content="justourworld.eu">
+<link rel=alternate type=application/rss+xml href=justourworld.eu/series/hugo-101/index.xml title="Just our world">
 </head>
 <body>
 <div class=container>
@@ -58,13 +59,27 @@ Just our world
 </span>
 </header>
 <div class=content>
-<div class=post>
-<h1 class=post-title>Over ons</h1>
+<div class=posts>
+<div class="post on-list">
+<h1 class=post-title><a href=justourworld.eu/posts/migrate-from-jekyll/>Migrate to Hugo from Jekyll</a></h1>
 <div class=post-meta>
-<span class=post-author>— Written by Kelly</span>
+<span class=post-date>
+2014-03-10
+</span>
+<span class=post-author>— Written by map[name:Hugo Authors]</span>
 </div>
 <div class=post-content>
-<p>Wij zijn een gezinnetje van 4; Ziggy en ik (Kelly), Ayla; onze dochter en Lou; onze Engelse Cocker Spaniel.</p>
+Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root>/ ▾ images/ logo.png should become
+▾ &lt;root>/ ▾ static/ ▾ images/ logo.png Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.
+</div>
+<div>
+<a class="read-more button" href=justourworld.eu/posts/migrate-from-jekyll/>Read more →</a>
+</div>
+</div>
+<div class=pagination>
+<div class=pagination__buttons>
+</div>
 </div>
 </div>
 </div>

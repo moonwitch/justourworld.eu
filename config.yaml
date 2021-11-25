@@ -1,0 +1,37 @@
+baseurl: justourworld.eu
+title: Just our world
+languageCode: nl-be
+theme: hello-friend
+paginate: 10
+MetaDataFormat: yaml
+params:
+  dateform: 'Jan 2, 2006'
+  dateformShort: Jan 2
+  dateformNum: '2006-01-02'
+  dateformNumTime: '2006-01-02 15:04'
+  homeSubtitle: 'Gewoon, onze wereld en hoe wij alles zien'
+  disableReadOtherPosts: false
+  enableSharingButtons: true
+  description: Mijn gezinnetje en de wereld
+  keywords: 'homepage, blog, gezin, family'
+  defaultTheme: 'light'
+  images:
+    - ''
+  social:
+    - name: Github
+      url: 'https://github.com/moonwitch'
+taxonomies:
+  category: blog
+  tag: tags
+  series: series
+menu:
+  main:
+    - identifier: blog
+      name: blog
+      url: /posts
+      weight: -100
+    - identifier: about
+      name: over ons
+      pre: <i class='fa fa-heart'></i>
+      url: /about
+      weight: -100

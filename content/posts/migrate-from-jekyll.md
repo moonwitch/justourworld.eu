@@ -1,9 +1,7 @@
 ---
 aliases:
 - /blog/migrate-from-jekyll/
-author:
-  name: Hugo Authors
-date: "2014-03-10"
+date: "2021-03-10"
 linktitle: Migrating from Jekyll
 series:
 - Hugo 101

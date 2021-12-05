@@ -1,15 +1,24 @@
-baseurl: ''
-title: Just our world
+baseurl: /
+title: Onze kleine wereld
 languageCode: nl-be
 theme: hello-friend
 paginate: 10
 MetaDataFormat: yaml
+
 params:
+  # Users
+  author: Kelly Crabbé
+  #Hello Friend Extra
+  logo:
+    logoText: "Onze kleine wereld"
+    logoHomeLink: "/"
+  showReadingTime: true
+
   dateform: 'Jan 2, 2006'
   dateformShort: Jan 2
   dateformNum: '2006-01-02'
   dateformNumTime: '2006-01-02 15:04'
-  homeSubtitle: 'Gewoon, onze wereld en hoe wij alles zien'
+
   disableReadOtherPosts: false
   enableSharingButtons: true
   description: Mijn gezinnetje en de wereld
@@ -29,7 +38,11 @@ menu:
     - identifier: blog
       name: blog
       url: /posts
-      weight: -100
+      weight: -300
+    - identifier: recepten
+      name: recepten
+      url: /recepten
+      weight: -200
     - identifier: about
       name: over ons
       pre: <i class='fa fa-heart'></i>

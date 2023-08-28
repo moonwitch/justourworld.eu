@@ -1,0 +1,10 @@
+baseURL: https://justourworld.eu
+languageCode: nl-BE
+title: Just Our World
+
+# Base config
+theme: hugo-theme-loumans
+paginate: 5
+
+# Menu
+sectionPagesMenu: "main"

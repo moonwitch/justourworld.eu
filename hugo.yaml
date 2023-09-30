@@ -1,10 +1,14 @@
 baseURL: https://justourworld.eu
 languageCode: nl-BE
+defaultContentLanguage: en
 title: Just Our World
 
 # Base config
-theme: hugo-theme-loumans
-paginate: 5
+theme: heyo-hugo-theme
+paginate: 10
+summaryLength: 100
+enableEmoji: true
+enableRobotsTXT: true
 
 # Menu
 menu:
@@ -21,3 +25,14 @@ menu:
       pre: tag
       url: /tags/
       weight: 3
+
+# Lanuage
+languages:
+  en:
+    languageName: en
+    weight: 1
+    contentDir: content/en
+  nl:
+    languageName: nl-BE
+    weight: 2
+    contentDir: content/nl

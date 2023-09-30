@@ -1,0 +1,27 @@
+[category]
+other = "categorie"
+
+[tag]
+other = "tag"
+
+[reading_time]
+one = "een minuut"
+other = "{{ .Count }} minuten"
+
+[page_not_found]
+other = "Pagina niet gevonden"
+
+[page_does_not_exist]
+other = "Sorry, deze pagina bestaat niet."
+
+[head_back]
+other = "Je kan terug naar <a style=\"color:var(--a-color)\" href=\"{{ . }}\">homepage</a>."
+
+[comments]
+other = "opmerkingen"
+
+[table_of_contents]
+other = "Inhoudstafel"
+
+[description]
+other = "Call me Jane"

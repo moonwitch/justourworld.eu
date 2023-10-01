@@ -1,5 +1,4 @@
 baseURL: https://justourworld.eu
-languageCode: nl-BE
 defaultContentLanguage: en
 title: Just Our World
 
@@ -33,6 +32,6 @@ languages:
     weight: 1
     contentDir: content/en
   nl:
-    languageName: nl-BE
+    languageName: nl
     weight: 2
     contentDir: content/nl

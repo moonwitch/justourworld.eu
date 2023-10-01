@@ -1,11 +1,10 @@
 ---
-title: Zelfdiagnose
+title: Self diagnosis
 categories:
   - post
 tags: ["persoonlijk", "mentale gezondheid", "zelfdiagnose", "adhd"]
 date: "2023-08-29"
 lastmod: "2023-08-29"
-lang: nl
 comments: true
 draft: false
 ---

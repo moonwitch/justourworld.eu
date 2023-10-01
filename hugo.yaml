@@ -1,9 +1,10 @@
 baseURL: https://justourworld.eu
-defaultContentLanguage: en
+DefaultContentLanguage: en
+defaultContentLanguageInSubdir: true
 title: Just Our World
 
 # Base config
-theme: heyo-hugo-theme
+# theme: heyo-hugo-theme
 paginate: 10
 summaryLength: 100
 enableEmoji: true
@@ -28,10 +29,12 @@ menu:
 # Lanuage
 languages:
   en:
+    title: "Just Our World"
     languageName: en
     weight: 1
     contentDir: content/en
-  nl:
+  nl-BE:
+    title: "Gewoon wij"
     languageName: nl
     weight: 2
     contentDir: content/nl
